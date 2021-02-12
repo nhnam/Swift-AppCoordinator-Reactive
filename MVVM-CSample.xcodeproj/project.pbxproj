@@ -22,6 +22,7 @@
 		59587E3FA3446B640C918180 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59587F07E267B5E110C77929 /* Main.storyboard */; };
 		59587E80342FA9C84DB185EC /* SignInDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59587904DCEEDD88F4AD6AA7 /* SignInDelegate.swift */; };
 		59587FE8A73D15E6C730D986 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59587EA4FA9B2B16CD9874AD /* Coordinator.swift */; };
+		D8BE080C25D41C4900BD1E42 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BE080B25D41C4900BD1E42 /* StringExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		59587EA4FA9B2B16CD9874AD /* Coordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		59587EC1DE984BDC1270EF07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		59587F7FB73D9C9D183A890A /* SignInViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
+		D8BE080B25D41C4900BD1E42 /* StringExtension.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; tabWidth = 2; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +174,7 @@
 				59587B2D581CDA315D1E0407 /* SignInViewController.swift */,
 				59587EA4FA9B2B16CD9874AD /* Coordinator.swift */,
 				59587DDF17A412A15D5FB8FD /* AppCoordinator.swift */,
+				D8BE080B25D41C4900BD1E42 /* StringExtension.swift */,
 				5958793165827C8FC85B7F15 /* Model */,
 				59587D7E25AB8683CBA3E6B6 /* ViewModel */,
 				5958771A823EA38AC9E268EE /* Service */,
@@ -330,6 +333,7 @@
 				5958794773E4481187CE4463 /* SessionService.swift in Sources */,
 				59587E80342FA9C84DB185EC /* SignInDelegate.swift in Sources */,
 				59587881C68D8FF52CE787E1 /* SignInViewModel.swift in Sources */,
+				D8BE080C25D41C4900BD1E42 /* StringExtension.swift in Sources */,
 				595878494A64E735AF59A4D5 /* Box.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
