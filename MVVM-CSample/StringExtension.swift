@@ -7,7 +7,7 @@
 import Foundation
 
 extension String.StringInterpolation {
-  public mutating func appendInterpolation(_ value: String?, defaultValue: @autoclosure () -> String){
+  public mutating func appendInterpolation(_ value: String?, _ defaultValue: @autoclosure () -> String){
     guard let val = value else {
       appendLiteral(defaultValue())
       return
@@ -16,6 +16,6 @@ extension String.StringInterpolation {
   }
   
   public mutating func appendInterpolation(_ value: String?) {
-    appendInterpolation(value, defaultValue: "")
+    appendInterpolation(value, "")
   }
 }
